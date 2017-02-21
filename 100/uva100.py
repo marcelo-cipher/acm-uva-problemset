@@ -1,5 +1,7 @@
 # UVA100 - The 3n + 1 Problem - Solved
-#
+# goo.gl/9FdJdO
+# @author: Marcelo Adriano Amancio
+# 'Imagination is more important than knowledge.' -- Albert Einstein
 
 from sys import stdin
 
@@ -25,11 +27,10 @@ def cl(a,b):
 		maxn = max(f(x),maxn)
 	return maxn
 
-def prog():
-	None
+def main():
 	for line in stdin:
 		a,b = [int(s) for s in line.split()]
 		print (a,b,cl(min(a,b),max(a,b)))
 
-prog()
+main()
 
