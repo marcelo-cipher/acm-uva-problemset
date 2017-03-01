@@ -7,8 +7,7 @@ from sys import stdin
 
 def process(a,b):
 	ch = ';'
-	firstd = a//b
-	print("[{}".format(firstd),end='')
+	print("[{}".format(a//b),end='')
 
 	a,b = b,a%b 
 	while b:
